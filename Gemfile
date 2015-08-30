@@ -6,6 +6,8 @@ gem 'rails', '4.2.3'
 
 gem 'bootstrap-sass'
 
+gem 'bcrypt-ruby', '3.0.1'
+
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets
@@ -46,6 +48,7 @@ group :development, :test do
   gem 'spring'
 
   gem 'rspec-rails', '2.11.0'
+
 end
 
 group :test do

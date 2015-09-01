@@ -6,7 +6,7 @@ gem 'rails', '4.2.3'
 
 gem 'bootstrap-sass'
 
-gem 'bcrypt-ruby', '3.0.1'
+gem 'bcrypt-ruby', '3.1.2'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
@@ -53,5 +53,7 @@ end
 
 group :test do
   gem 'capybara', '1.1.2'
+
+  gem 'factory_girl_rails'
 end
 
